@@ -1,9 +1,10 @@
 import sys
 
+
 def txt_importer(path_file):
     try:
         if path_file[len(path_file) - 4:] != ".txt":
-            return print(f"Formato inválido", file=sys.stderr)
+            return print("Formato inválido", file=sys.stderr)
 
         with open(path_file) as file:
             lines = file.read()
