@@ -17,7 +17,8 @@ def process(path_file, instance):
     return print(data, file=sys.stdout)
 
 def remove(instance):
-    """Aqui irá sua implementação"""
+    if not len(instance):
+        return print("Não há elementos", file=sys.stdout)
 
 
 def file_metadata(instance, position):
