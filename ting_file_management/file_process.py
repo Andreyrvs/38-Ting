@@ -6,7 +6,7 @@ def process(path_file, instance):
 
     file = txt_importer(path_file)
     data = {
-       "nome_do_arquivo": path_file,
+        "nome_do_arquivo": path_file,
         "qtd_linhas": len(file),
         "linhas_do_arquivo": file,
     }
