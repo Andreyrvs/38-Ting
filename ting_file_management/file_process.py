@@ -32,7 +32,8 @@ def remove(instance):
 
 
 def file_metadata(instance, position):
-    if instance.search(position) == IndexError:
-        return print("Posição inválida", file=sys.stderr)
-    file = instance.queue()
-    return print(file ,file=sys.stdout)
+    try:
+        file = instance.search(position)
+        return print(file ,file=sys.stdout)
+    except IndexError:
+        print("Posição inválida", file=sys.stderr)
