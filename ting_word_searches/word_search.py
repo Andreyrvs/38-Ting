@@ -11,8 +11,13 @@ def exists_word(word, instance):
             "arquivo": file["nome_do_arquivo"],
             "ocorrencias": list(),
         }
-        rows = 1
 
+        # /**
+        # * Consultei o repositório do [João Marcelo] para resolver essa parte.
+        # * Link do repositório:
+        # * https://github.com/tryber/sd-020-a-project-ting/pull/9
+        # */
+        rows = 1
         for row in file["linhas_do_arquivo"]:
             if word_lower in row.lower():
                 data["ocorrencias"].append({"linha": rows})
