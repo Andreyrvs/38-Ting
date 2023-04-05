@@ -1,8 +1,13 @@
-# My Awesome Project
+# Ting
 
 ## Contexto
 
-Este projeto trata-se de um conversor de imagens simpes. É possivel converter imagems no fomato .webp para .png!
+Esse projeto trata-se de  implementar um programa que simule um algoritmo de indexação de documentos similar ao do Google.O programa deverá ser capaz de identificar ocorrências de termos em arquivos TXT.
+
+Para isso, o programa desenvolvido deverá ter dois módulos:
+
+Módulo de gerenciamento de arquivos que permite anexar arquivos de texto (formato TXT) e;
+Módulo de buscas que permite operar funções de busca sobre os arquivos anexados.
 
 ## Técnologias usadas
 
@@ -14,12 +19,20 @@ Aplicação:
 
 Adquiri essas habilidades ao desenvolver esse projeto:
 
+- Manipular Pilhas;
+
+- Manipular Deque;
+
+- Manipular Nó & Listas Ligadas e;
+
+- Manipular Listas Duplamente Ligadas.
+
 ## Instalando Dependências
 
 - clone o projeto:
 
   ```bash
-  git clone
+  git clone git@github.com:Andreyrvs/38-Ting.git
   ```
 
 > Aplicação
@@ -27,7 +40,7 @@ Adquiri essas habilidades ao desenvolver esse projeto:
 1. **Entre no diretório**
 
    ```bash
-   cd
+   cd 38-Ting
    ```
 
 2. **Criar o ambiente virtual**
