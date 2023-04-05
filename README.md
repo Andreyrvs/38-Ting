@@ -61,15 +61,6 @@ Adquiri essas habilidades ao desenvolver esse projeto:
    python3 -m pip install -r dev-requirements.txt
    ```
 
-## Executando aplicação
-
-- Para rodar a aplicação:
-
-  ```bash
-  cd src/
-  python3 -u
-  ```
-
 ## Executando Testes
 
 - Para rodar todos os Testes:
